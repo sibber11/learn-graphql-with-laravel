@@ -1,0 +1,9 @@
+projects:
+
+schema:
+  - graphql/schema.graphql
+  - schema-directives.graphql
+  - programmatic-types.graphql
+documents: '**/*.graphql'
+exclude:
+  - /vendor
